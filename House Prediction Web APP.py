@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 # Load trained model
-model = pickle.load(open("C:/Users/syeme/Downloads/Machine Learning/Project 3 - Californa House Price Prediction/house_prediction_training_model.sav", 'rb'))
+model = pickle.load(open("house_prediction_training_model.sav", 'rb'))
 
 # Define prediction logic
 def house_prediction(input_data):
